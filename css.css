@@ -98,7 +98,7 @@ nav {
 }
 /* ABOUT SECTION */
 .about-section {
-    min-height: 100vh;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,22 +152,13 @@ nav {
         font-size: 1.1rem;
     }
     
-    /* .about-section{
-      padding-top: 10px;
-    } */
+
     .chart{
       max-width: 450px ;
       padding-left: 100px;
     }
 
   
-}
-
-
-@media (max-width: 600px) {
-  .about-section{
-    padding-top: 2px;
-  }
 }
 
 /* @media (max-width: 496px) {
