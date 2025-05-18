@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonic Bitcoin</title>
+    <title>Rich Pepe</title>
     <link rel="stylesheet" href="css.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/richard-samuels" rel="stylesheet">
+                                
 
     
 </head>
 <body>
+<style>
+    @import url('https://fonts.cdnfonts.com/css/richard-samuels');
+</style>
+
     <canvas id="matrix-rain"></canvas>
 
     <header>
-        <div class="logo">SONIC'S BITCOIN</div>
+
+
+        <a href="#home" class="logo">
+          <img src="img 1.JPG" alt="" id="logo-img">
+          <span class="logo-text" style="font-family: 'Richard Samuels', sans-serif; ">Rich Pepe</span>
+        </a>
         <nav>
-            <a href="#" class="nav-button">HOME</a>
-            <a href="#about" class="nav-button">ABOUT</a>
-            <a href="#tokenomics" class="nav-button">TOKENOMICS</a>
+            <a href="#" class="nav-button" style="font-family: 'Richard Samuels', sans-serif;">HOME</a>
+            <a href="#about" class="nav-button" style="font-family: 'Richard Samuels', sans-serif;">ABOUT</a>
+            <a href="#tokenomics" class="nav-button" style="font-family: 'Richard Samuels', sans-serif;">TOKENOMICS</a>
 
 
         </nav>
@@ -33,7 +44,7 @@
             <div data-aos="fade-right"></div>
             <div data-aos="fade-left"></div>
             <div data-aos="fade-up-right"></div>
-            <img src="sonic image.png" alt="Character" class="character-img">
+            <img src="img 2.JPG" alt="Character" class="character-img" style="border-radius: 20px;">
 
 <!-- social links -->
 
@@ -65,7 +76,7 @@
               <div class="tooltip">Dribbble</div>
             </li> -->
 
-            <li class="icon-content">
+            <!-- <li class="icon-content">
                 <a
                   data-social="instagram"
                   aria-label="instagram"
@@ -77,7 +88,7 @@
                   </svg>
                 </a>
                 <div class="tooltip">TikTok</div>
-              </li>
+              </li> -->
 
 
               
@@ -87,7 +98,7 @@
               <a
                 data-social="telegram"
                 aria-label="Telegram"
-                href="https://t.me/sonicsbitcoin"
+                href="https://t.me/rpepeonsol"
               >
                 <div class="filled"></div>
                 <svg viewBox="0 0 100 100" version="1.1">
@@ -116,21 +127,21 @@
                         <div class="bg-inner"></div>
                     </div>
                     <div class="text">
-                        BUY $sBTC
+                        BUY $richpepe
                     </div>
                 </div>
             </a>
 
             <!-- ABOUT SECTION -->
 
-            <div id="about" class="about-section" style="border-style: none;">
+            <div id="about" class="about-section" style="border-style: none; border-radius: 20px;">
                                
-              <p class="about-text">
-                  WE ARE LIKE BITCOIN ₿, BUT FASTER 🚀
+              <p class="about-text" style="font-family: 'Richard Samuels', sans-serif;">
+                The King of Memes 🐸 
                   <br>
                   <br>
-                  CA: 4CpmwmHaV1qjUbiVU2oa4yigsAhyUy2ztF763jiypump
-              <img src="s image.jpeg" alt="Character" class="character-img" style="padding-right: 0px;">
+                  CA: E6u59uSjJsU22rJS5Bi6ubyTzkAgaXENRffdaWjNpump
+              <img src="img 1.JPG" alt="Character" class="character-img" style="padding-right: 0px;" style="border-radius: 20px;">
               </p>
           </div>
     
@@ -167,7 +178,7 @@
               <h1 style=" padding-left: 30px;  max-width: fit-content;
               margin-left: auto;
               margin-right: auto;
-              font-size: 25px;">HERE IS OUR TOKENOMICS</h1>
+              font-size: 25px; font-family: 'Richard Samuels', sans-serif;">HERE IS OUR TOKENOMICS</h1>
               <h1>   </h1>
             
 
@@ -220,8 +231,8 @@
         function draw() {
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            ctx.fillStyle = '#0ea5e9';
+//Rain color 
+            ctx.fillStyle = 'green';
             ctx.font = `${fontSize}px monospace`;
 
             for (let i = 0; i < drops.length; i++) {
